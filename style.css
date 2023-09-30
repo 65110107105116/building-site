@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family:montserrat; */
+}
+section{
+    padding:50px 0;
+}
+.navbar-nav a{
+    margin: 0 10px;
+    font-size:17px;
+    font-weight:500;
+}
+.navbar-nav a:hover{
+    color:indianred;
+}
+.navbar-brand{
+    font-size: 40px;
+}
+.carousel-item{
+    height: 100vh;
+}
+.carousel-caption{
+    margin-bottom: 170px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    /* color: black; */
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 100%;
+    line-height: 1.9;
+    font-size: 15px;
+
+    
+}
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
